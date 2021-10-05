@@ -1,0 +1,157 @@
+.chess__wrap {
+    width: 100%;
+}
+.chess__heading {
+    margin: 0 auto;
+    width: fit-content; 
+}
+.chess {
+    margin-top: 50px;
+    max-width: 1000px;
+    height: 1000px;
+    width: 100%;
+    margin: 1px auto;
+    border-left: 4px solid #000;
+    border-bottom: 4px solid #000;
+    border-top: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
+.chess__row-black {
+    background-color: #000;
+}
+
+.chess__row-black:hover {
+    background-color: rgb(22, 22, 22);
+}
+
+.chess__row-white {
+    background-color: #fff;
+}
+
+.chess__row-white:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+.chess__col {
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+}
+.chess__row-item {
+    cursor: pointer;
+    width: 12.5%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .chess {
+        max-width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chess {
+        max-width: 375px;
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .chess {
+        max-width: 300px;
+        height: 300px;
+    }
+}
+
+.border__2{
+     border: 5px solid white;
+     margin: auto;
+     width: 1010px;
+     height: 1010px;
+     margin-top: 1px;
+}
+
+.border__3{
+    margin-top: 60px;
+}
+
+.border__cuoi__left{
+    width: 30px;
+    height: 1030px;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 13px;
+    margin-top: -1040px;
+    margin-left: 190px;
+}
+
+.border__left__chill{
+    color: white;
+    margin: auto;
+    line-height: 125px;
+    font-size: xx-large;
+    
+}
+
+.border__cuoi__bottom{
+    width: 1130px;
+    height: 40px;
+    background-color: black;
+    margin-top: -60px;
+    margin-left: 190px;
+}
+
+.border__bottom__chill{
+    color: white;
+    margin-left: 115px;
+    font-size: xx-large;
+    letter-spacing: 53px;
+    
+}
+
+.border__cuoi__right{
+    width: 30px;
+    height: 1030px;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 13px;
+    margin-top: -1040px;
+    margin-left: 1277px;
+}
+
+..border__right__chill{
+    color: white;
+    margin: auto;
+    line-height: 125px;
+    font-size: xx-large;
+    
+}
+
+.border__cuoi__top{
+    width: 1130px;
+    height: 40px;
+    background-color: black;
+    margin-top: -1155px;
+    margin-left: 190px;
+}
+
+.border__top__chill{
+    color: white;
+    margin-left: 115px;
+    font-size: xx-large;
+    letter-spacing: 53px;
+}
+
+.them{
+    width: 43px;
+    height: 20px;
+    background-color: black;
+    margin-left: 1277px;
+}
+
+.
