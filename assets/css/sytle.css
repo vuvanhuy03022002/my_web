@@ -12,9 +12,9 @@ html{
 }
 
 .menu__item__chill {
-    border-radius: 15px;
-    width: 120px;
-    height: 30px;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
     background: blue;
     display: flex;
     flex-direction: column;     
@@ -27,6 +27,12 @@ html{
     display: inline-block;
     position: relative;
 }
+
+@media only screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+  }
 
 .banner{
     width: 100%;
@@ -60,6 +66,7 @@ html{
     top: 100px;
     left: 22px;
     border-radius: 5px;
+    background: rgba(22, 48, 48, 0.562);
 }
 
 .subnav li:hover {
@@ -72,6 +79,11 @@ html{
     color:#fff;
     text-decoration: none;
     width: 100%;
+    padding-left: 5px;
+}
+
+.subnav li {
+    height: 25px;
 }
 
 .header li .menu__item{
@@ -178,11 +190,14 @@ html{
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
 }
 
 .tab__chill img {
     width: 50px;
     padding: 25px 35px;
+    margin-top: -20px;
 }
 
 /* banner */
@@ -285,6 +300,7 @@ html{
     right: 0;
     left: 0;
     bottom: 0;
+    border-radius: 20px;
 }
 
 .location__stuff__chill{
@@ -368,11 +384,6 @@ html{
 
 .sell__letter{
     width: 100%;
-    height: 100px;
-}
-
-.sell__letter{
-    width: 100%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -402,7 +413,8 @@ html{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 410px;
+    height: 500px;
+    padding-top: 30px;
 }
 
 .sell__shop__photo img {
@@ -455,6 +467,58 @@ html{
     font-weight: 700;
 }
 
+.shop__photo__price p {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.shop__photo__put {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.put__chill__1 {
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    background: greenyellow;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.put__chill__2 {
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    background: red;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.put__chill__3 {
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    background: fuchsia;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.shop__photo__link {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
 /* kết */
 
 .footer {
@@ -463,7 +527,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center; 
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .footer__photo {
